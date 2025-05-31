@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public int minDamage = 6;
-    public int maxDamage = 16;
+    public int minDamage = 16;
+    public int maxDamage = 26;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

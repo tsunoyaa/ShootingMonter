@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour
     {
         int showTimer = 0;
         int maxTimer = 0;
-        if (gameMode == 0) maxTimer = 1800;
+        if (gameMode == 0) maxTimer = 300;
         int second, minute;
         while (true)
         {
